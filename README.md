@@ -17,7 +17,7 @@ The system is designed to evolve into a more structured and extensible cryptogra
 - Affine Cipher (mod 95)
 - Vigenère-style ASCII shifting
 - Rail Fence Cipher
-- Polybius-based coordinate mapping
+- Polybius Square (10x10 ASCII adaptation)
 All algorithms operate on the full printable ASCII range.
 
 ## Randomized Layering Example
@@ -33,5 +33,9 @@ rFrs'l:.7'F>''YYM:.c%"o'Ks!YH.M:"]
 Encrypted (Run 3):
 ^VC05H2'pCMf2XREooK:2r\f)du-\rSfWdB[SN\oxdB['?S:%suWRJfew%bf\_s'Vo
 
-Decrypted (any of the above):
+Decrypted (Run 1 / Run 2 / Run 3):
 Hello World!
+
+## How to Run
+```bash
+python cipher.py
